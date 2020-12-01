@@ -42,7 +42,6 @@ h1 {
 .nav-list {
   padding: 0;
   list-style-type: none;
-  line-height: 2em;
 }
 
 .nav-list-item {
@@ -55,10 +54,20 @@ h1 {
   display: block;
   padding: 0 0.5em;
   color: #fff;
+
+  line-height: 2em;
   text-decoration: none;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+
+
+.section {
+  width: 60%;
+  padding: 0.5em;
+
+  font-size: 1.25em;
 }
 
 .units-list {
@@ -72,12 +81,7 @@ h1 {
   font-weight: 700;
 }
 
-.section {
-  width: 60%;
-  padding: 0.5em;
 
-  font-size: 1.25em;
-}
 
 .section__header {
   font-size: 5vw;
