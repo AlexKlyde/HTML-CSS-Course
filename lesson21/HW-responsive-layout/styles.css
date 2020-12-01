@@ -41,7 +41,6 @@ h1 {
 
 .nav-list {
   padding: 0;
-  line-height: 1.75em;
   list-style-type: none;
 }
 
@@ -62,27 +61,29 @@ h1 {
   text-overflow: ellipsis;
 }
 
-
+.units-list {
+  line-height: 1.75em;
+}
 
 .css-units {
   color: #8b0000;
   background-color: #e5e5e5;
-
   font-size: 1.125em;
+  font-weight: 700;
 }
 
 .section {
   width: 60%;
   padding: 0.5em;
 
-  font-size: 1.125em;
-  font-weight: 700;
+  font-size: 1.25em;
 }
 
 .section__header {
   font-size: 5vw;
   text-align: center;
 }
+
 
 .news {
   width: 20%;
