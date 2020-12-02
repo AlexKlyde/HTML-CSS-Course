@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+.navigation {
+  display: flex;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+}
+
+.product__image img {
+  width: 200px;
+}
