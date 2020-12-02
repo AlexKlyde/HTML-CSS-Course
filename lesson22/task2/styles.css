@@ -5,6 +5,12 @@
   flex-grow: 1;
 }
 
+.products {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+}
+
 .products-list {
   display: flex;
   min-height: 200px;
@@ -31,8 +37,6 @@ span {
 
 @media screen and (min-width: 600px){
   .products {
-    display: flex;
-    flex: 2;
     flex-direction: row;
   }
 }
@@ -42,4 +46,6 @@ span {
     display: flex;
   }
 }
+
+
 
