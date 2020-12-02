@@ -2,20 +2,14 @@
   display: flex;
   min-height: 200px;
   background-color: #ff7f50;
-  flex-grow: 1;
+  flex: 1;
 }
-
-/* .products {
-    display: flex;
-    flex: 2;
-    flex-direction: column;
-} */
 
 .products-list {
   display: flex;
   min-height: 200px;
   background-color: #006400;
-  flex-grow: 1;
+  flex: 1;
 }
 
 .news {
