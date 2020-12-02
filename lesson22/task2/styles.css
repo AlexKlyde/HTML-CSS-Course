@@ -2,21 +2,21 @@
   display: flex;
   min-height: 200px;
   background-color: #ff7f50;
-  flex-grow: 1;
+  /* flex-grow: 1; */
 }
 
 .products-list {
   display: flex;
   min-height: 200px;
   background-color: #006400;
-  flex-grow: 1;
+  /* flex-grow: 1; */
 }
 
 .news {
   display: flex;
   min-height: 200px;
   background-color: #0ff;
-  flex-grow: 1;
+  /* flex-grow: 1; */
 }
 
 span {
@@ -32,12 +32,25 @@ span {
 @media screen and (min-width: 600px){
   .products {
     display: flex;
-    flex: 2;
+  }
+  .navigation {
+    flex-grow: 1;
+  }
+  .products-list {
+    flex-grow: 1;
   }
 }
 
 @media screen and (min-width: 900px){
   .content {
     display: flex;
+  }
+
+  .news {
+    flex: 1;
+  }
+
+  .products {
+    flex: 2;
   }
 }
